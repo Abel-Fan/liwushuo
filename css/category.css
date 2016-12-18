@@ -1,0 +1,155 @@
+body{
+    background: #f9f5f4;
+}
+
+/*wheel-start*/
+.swiper-slide{
+    display: block;
+    width:100%;
+    height:4rem;
+    background: red;
+}
+.list{
+    width:100%;
+    height:4rem;
+    background: #fff;
+}
+.list li{
+    box-sizing: border-box;
+    width:33.33%;
+    height:2rem;
+    float:left;
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+.list li:nth-child(3){
+    border-right: 0;
+}
+.list li:nth-child(6){
+    border-right: 0;
+    border-bottom: 0;
+}
+.list li:nth-child(5){
+    border-bottom: 0;
+}
+.list li:nth-child(4){
+    border-bottom: 0;
+}
+.list a{
+    display: block;
+    width:100%;
+    height:100%;
+    font-size: 0.22rem;
+    text-align: center;
+    color:#2d2327;
+    border-top:1px solid rgba(0,0,0,0);
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+}
+.list a img{
+    display: block;
+    margin:0 auto;
+    width:0.62rem;
+    height:0.64rem;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+}
+
+/*wheel-end*/
+
+
+/*商品页*/
+.goods-box{
+
+}
+.goods{
+    width:100%;
+    background: #fff;
+    margin-top: 0.2rem;
+    box-sizing: border-box;
+    padding: 0.3rem;
+}
+.goods .title{
+    width:100%;
+    height:1.38rem;
+    border:1px solid rgba(0,0,0,0)
+}
+.goods .title a{
+    display: block;
+    width:0.71rem;
+    height:0.71rem;
+    border:1px solid #f3f3f2;
+    border-radius: 100%;
+    font-size: 0.1rem;
+    text-align: center;
+    background: #fff;
+    margin-top: 0.3rem;
+    float:left;
+    overflow: hidden;
+    line-height: 0.71rem;
+}
+.goods .title div{
+    float:right;
+    width:5.9rem;
+    height:100%;
+    box-sizing: border-box;
+    padding-top: 0.43rem;
+}
+.goods .title div h3{
+    font-size: 0.24rem;
+    color:#140404;
+}
+.goods .title div h4{
+    margin-top: 0.1rem;
+    font-size: 0.26rem;
+    color:#907376;
+}
+.goods .con{
+    display: block;
+}
+.goods .con img{
+    display: block;
+    width:100%;
+}
+.goods .con h3{
+    margin-top: 0.48rem;
+    font-size: 0.4rem;
+    color:#170000;
+}
+.goods .con h4{
+    margin-top: 0.3rem;
+    font-size: 0.3rem;
+    color:#7b6869;
+    letter-spacing: 0.01rem;
+    line-height: 0.4rem;
+}
+
+.goods .bottom{
+    margin-top: 0.45rem;
+    width:100%;
+    height:0.98rem;
+    border-top:1px solid #ccc;
+}
+.goods .bottom .left{
+    width:2.5rem;
+    height:100%;
+    float: left;
+    font-size: 0.26rem;
+    color:#766262;
+    line-height: 0.98rem;
+}
+.goods .bottom .left span{
+    color:#1a0c0a;
+}
+.goods .bottom .right{
+    width:2.5rem;
+    height:100%;
+    float: right;
+    font-size: 0.1rem;
+    color:#766262;
+    line-height: 0.98rem;
+    text-align: right;
+    margin-right: 0.1rem;
+}
+.goods .bottom .click{
+    font-size: 0.3rem;
+}

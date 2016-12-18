@@ -1,0 +1,40 @@
+.banner{
+    width:100%;
+    display: block;
+}
+.goods-box{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.goods{
+    display: block;
+    margin-top: 0.2rem;
+    width:3.51rem;
+    height:5.48rem;
+    border:1px solid #f2ecec;
+    border-radius: 0.1rem;
+    overflow: hidden;
+}
+.goods img{
+    height:3.54rem;
+    display: block;
+}
+.goods h3{
+    padding-left:0.22rem;
+    margin-top: 0.21rem;
+    font-size: 0.24rem;
+    color:#140405;
+}
+.goods h4{
+    padding-left:0.22rem;
+    margin-top: 0.25rem;
+    font-size: 0.24rem;
+    color:#685b5b;
+}
+.goods h5{
+    padding-left:0.22rem;
+    margin-top: 0.38rem;
+    font-size: 0.24rem;
+    color:#ff2e45;
+}

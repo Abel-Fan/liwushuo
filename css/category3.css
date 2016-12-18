@@ -1,0 +1,124 @@
+body{
+    background: #f9f5f4;
+}
+.title{
+    height:0.83rem;
+    font-size: 0.27rem;
+    background: #fff;
+}
+.title .left{
+    display: block;
+    width:3rem;
+    height:100%;
+    float:left;
+    line-height: 0.83rem;
+    color:#796265;
+    margin-left: 0.2rem;
+}
+.title .right{
+    display: block;
+    width:1.5rem;
+    height:100%;
+    float:right;
+    line-height: 0.83rem;
+    color:#270e13;
+    text-align:right;
+    margin-right: 0.2rem;
+}
+.swiper-container{
+    width:100%;
+    height:5.4rem;
+    background: #fff;
+}
+.swiper-container .swiper-wrapper .swiper-slide{
+
+}
+.swiper-slide .goods{
+    margin-top: 0.2rem;
+    display: block;
+    width:100%;
+    height:1.58rem;
+}
+.swiper-slide .goods img{
+    display: block;
+    height:1.58rem;
+    float:left;
+}
+.swiper-slide .goods .con{
+    width:3rem;
+    height:1.58rem;
+    float:right;
+    box-sizing: border-box;
+    padding:0.2rem;
+}
+.swiper-slide .goods .con h3{
+    font-size: 0.32rem;
+    color:#2c1519;
+}
+.swiper-slide .goods .con h4{
+    margin-top: 0.62rem;
+    font-size: 0.26rem;
+    color:#6a5958;
+}
+.swiper-slide .goods-last{
+    box-sizing: border-box;
+    padding-top: 0.3rem;
+}
+.swiper-slide .goods-last .move{
+    display: block;
+    width:2.58rem;
+    height:0.68rem;
+    border:1px solid #fa1630;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.68rem;
+    font-size: 0.32rem;
+    color:#fa1630;
+}
+
+.box{
+    margin-top: 0.2rem;
+    width:100%;
+    height:7rem;
+    background: #fff;
+}
+.box .box-goods{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+}
+
+.box .box-goods .goods{
+     margin-top: 0.2rem;
+     display: block;
+     width:3.34rem;
+     height:1.71rem;
+     background-color: #f3efec;
+     border-radius: 0.1rem;
+    box-sizing: border-box;
+    padding-left: 0.4rem;
+    background-size: 1.06rem 1.46rem ;
+    position:relative;
+ }
+.box .box-goods .goods h3{
+    margin-top: 0.5rem;
+    font-size: 0.28rem;
+    color:#0a0000;
+    position:relative;
+    z-index: 10;
+}
+.box .box-goods .goods img{
+    width:1.06rem;
+    height:1.46rem;
+    position:absolute;
+    top:0.2rem;right:0;
+    z-index: 0;
+}
+.box .box-goods .goods h4{
+    margin-top: 0.18rem;
+    font-size: 0.28rem;
+    color:#524140;
+    position:relative;
+    z-index: 10;
+}

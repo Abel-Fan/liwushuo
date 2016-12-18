@@ -1,0 +1,152 @@
+html,body{
+    width:100%;height:100%;
+    overflow: hidden;
+}
+header{
+    width:100%;
+    height:1.68rem;
+    position:absolute;
+    top:0;left:0;
+    z-index: 100;
+    background: #fff;
+}
+header .top{
+    width:100%;
+    height:0.81rem;
+    line-height: 0.81rem;
+}
+
+header .top h1{
+    color:#240000;
+    font-size: 0.39rem;
+    text-align: center;
+}
+header .top .search{
+    display: block;
+    width:7.10rem;
+    height:0.53rem;
+    margin:0.1rem auto;
+    background: #f9f5f4;
+    text-align: center;
+    line-height: 0.53rem;
+    font-size: 0.27rem;
+    border-radius: 0.1rem;
+}
+header .top .icon{
+    font-size: 0.2rem;
+    color:#5b5553;
+}
+header .nav{
+    height:0.87rem;
+    position:relative;
+}
+header .nav .lists1{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .nav .lists1 li{
+    height:100%;
+    float:left;
+}
+header .nav .lists1 li:nth-child(1){
+    margin-right: 0.3rem;
+}
+header .nav .lists1 li a{
+    display: block;
+    width:100%;
+    line-height: 0.87rem;
+    padding:0 0.05rem;
+    height:95%;
+    box-sizing: border-box;
+    font-size: 0.32rem;
+    color:#1a0c0b;
+}
+header .nav .lists1 .check{
+    color:#e72741;
+    border-bottom: 3px solid #e72741;
+}
+
+
+footer{
+    width:100%;
+    height:0.99rem;
+    border-top:1px solid #f0eeea;
+    position:absolute;
+    bottom:0;left:0;
+    background: #fff;
+    z-index: 111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    display: block;
+    font-size: 0.22rem;
+    text-align: center;
+}
+footer a i{
+    font-size:0.45rem!important;
+    color:#b8aaa9;
+}
+footer a span{
+    color:#311e1b;
+}
+footer .footer-check i{
+    color:#fd4358;
+}
+footer .footer-check span{
+    color:#fd4358;
+}
+#wrapper{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:1.68rem;
+    bottom:1rem;
+    background: #8ae75a;
+}
+
+
+.share-box{
+    display: none;
+    width:100%;
+    height:5.06rem;
+    background: #fff;
+    z-index: 999;
+    position:absolute;
+    bottom:0;left:0;
+}
+.share{
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+    width:100%;
+    height:4.10rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.share a{
+    width:33.33%;
+    height:1.30rem;
+    color:#645a59;
+    text-align: center;
+}
+.share img{
+    display: block;
+    width:0.78rem;
+    height:0.78rem;
+    margin:0 auto;
+}
+.share p{
+    font-size: 0.22em;
+    text-align: center;
+}
+.share-box .cancel{
+    font-size: 0.33rem;
+    text-align: center;
+    color:#1d1312;
+    border-top:1px solid #ccc;
+    padding-top: 0.3rem;
+}
