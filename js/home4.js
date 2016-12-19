@@ -3,6 +3,8 @@ $(function(){
     var lang = parseInt($(".me-con").css("height"))-$(window).height();
 
     var top1;
+
+    if(lang>0){
     touch.on("body","dragstart",".me-con",function(e){
         num=0;
         top1 = parseInt($(".me-con").css("top"));
@@ -61,5 +63,6 @@ $(function(){
     }
     function moveend(e){
 
+    }
     }
 });
