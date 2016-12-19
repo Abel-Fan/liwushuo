@@ -1,28 +1,24 @@
 $(function(){
     var top0 = parseInt($(".me-box").css("height"));
-    var lang = parseInt($(".me-con").css("height"))-$(window).height();
-
+    var lang = parseInt($(".me-con").css("height"))+top0-$(window).height();
     var top1;
+    console.log(lang);
+    console.log($(".me-con").css("height"));
+    console.log($(window).height());
 
-    if(lang>0){
     touch.on("body","dragstart",".me-con",function(e){
         num=0;
         top1 = parseInt($(".me-con").css("top"));
         touch.on("body","drag",".me-con",move);
-        touch.on("body","dragend",".me-con",moveend);
     });
     var num=0;
     function move(e){
-        //e.distanceY
-        //e.direction
-        //console.log(e.distanceY);
         var top = top1+e.distanceY;
 
         var num1 = top0/255;
         var num2 = Math.abs(parseInt($(".me-con").css("top"))-top0);
         var jisu = 255-num1*num2;
         var navheight = parseInt($(".me-con .menu").css("height"));
-        //console.log(num2);
         if(num2>(top0-navheight)){
             $(".me-con .menu").css({
                 position:"fixed",
@@ -36,7 +32,6 @@ $(function(){
                 left:null
             })
         }
-        //if(num2)
         if(jisu<0){
             jisu=0;
         }else if(jisu>200){
@@ -50,6 +45,8 @@ $(function(){
             color:"rgb("+jisu+","+jisu+","+jisu+")"
         });
 
+        console.log(top);
+
 
         if(top<=top0 && Math.abs(top)<lang){
             num+= parseInt(e.distanceY/100);
@@ -59,10 +56,18 @@ $(function(){
             });
 
         }
+    }
 
-    }
-    function moveend(e){
+    $(".menu a").click(function(){
+        $(".menu a").removeClass("menu-check");
+        $(this).addClass("menu-check");
+        $(".menu-con0").css("display","none");
+        if($(this).index()==0){
+            $(".menu-con0").eq(0).css("display","flex");
+        }else{
+            $(".menu-con0").eq(1).css("display","block");
+        }
 
-    }
-    }
+    })
+
 });
